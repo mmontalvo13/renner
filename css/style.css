@@ -1,0 +1,110 @@
+html{
+    background: rgb(26, 30, 53);
+    padding: 40px;
+}
+
+body{
+    background: rgb(50,49,76);
+    background: linear-gradient(135deg, rgba(50,49,76,1) 0%, rgba(94,106,122,1) 28%, rgb(29, 29, 54) 56%, rgb(37, 37, 58) 80%, rgba(94,106,122,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Helvetica, sans-serif;
+    color: rgb(232, 232, 232);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .titulo{
+    display: flex;
+    flex-flow: column;
+    background-image: url("../imgs/logo.png");
+    background-position: left;
+    background-size: 2.6em;
+    background-repeat: no-repeat;
+    padding-left: 3.2em;
+    justify-content: center;
+}
+
+header .titulo h1{
+    margin: 0 0 0 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+header .titulo div{
+    font-size: 0.8rem;
+}
+
+header ul{ 
+    list-style-type: none;
+    display: flex;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+header ul li{ 
+    padding: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+header ul li a{ 
+    color: white;
+    text-decoration: none;
+}
+
+.bloque1{
+    padding: 3%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.bloque1 .bloque1_left{
+    display: flex;
+    width: 40%;
+    font-size: 30px;
+    padding-right: 10%;
+    align-self: flex-start;
+    margin-top: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+.bloque1 .bloque1_right{
+    display: flex;
+    width: 50%;
+    margin-top: 0;
+    align-self: flex-start;
+}
+
+.bloque1 .bloque1_right p{
+    padding: 10px;
+    margin: 0;
+    columns: 2;
+    line-height: 150%;
+}
+.galeria{
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.galeria #img1, #img3, #img4{
+    width: 20%;
+}
+
+.galeria #img2{
+    width: 30%;
+}
+
+.galeria a img{
+    width: 100%;
+}
